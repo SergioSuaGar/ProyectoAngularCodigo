@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark" Style="background-color: #47055A">
+    <a class="navbar-brand"><img src="../../assets/img/logo.png" width="50" class="d-inline-block align-top mr-3" alt="Logo"></a>
+    <h5 class="mr-5" [ngStyle]="{'color': colorLetra}">SuaJuegos</h5>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['home']">Inicio</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['games']">Juegos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
